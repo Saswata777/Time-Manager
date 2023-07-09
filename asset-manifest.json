@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Time-Manager/static/css/main.60f65417.css",
+    "main.js": "/Time-Manager/static/js/main.6815320e.js",
+    "static/js/787.5b851041.chunk.js": "/Time-Manager/static/js/787.5b851041.chunk.js",
+    "static/media/ring.mp3": "/Time-Manager/static/media/ring.a25766e0ddbc829c4abe.mp3",
+    "static/media/ringtone.mp3": "/Time-Manager/static/media/ringtone.b40a09008fb28b6694f4.mp3",
+    "static/media/saveChange.mp3": "/Time-Manager/static/media/saveChange.54ece3c086c35cd3be74.mp3",
+    "static/media/stopwatch.png": "/Time-Manager/static/media/stopwatch.2a6d31e7f5e91b449258.png",
+    "static/media/mouse-click.mp3": "/Time-Manager/static/media/mouse-click.e24e3d3905e012cf714d.mp3",
+    "index.html": "/Time-Manager/index.html",
+    "main.60f65417.css.map": "/Time-Manager/static/css/main.60f65417.css.map",
+    "main.6815320e.js.map": "/Time-Manager/static/js/main.6815320e.js.map",
+    "787.5b851041.chunk.js.map": "/Time-Manager/static/js/787.5b851041.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60f65417.css",
+    "static/js/main.6815320e.js"
+  ]
+}
