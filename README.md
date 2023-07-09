@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Time Management Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a Time Management Web App built using React JS. It offers three main sections to help you manage your time effectively:
 
-## Available Scripts
+## 1. Pomodoro Timer
+The Pomodoro Timer section is designed to help you stay focused and productive. It follows the popular Pomodoro Technique, which consists of working for a set period of time followed by short breaks. The components in this section are as follows:
 
-In the project directory, you can run:
+- **Pomodoro (25 minutes):** This is the main work session where you can concentrate on a task for 25 minutes.
+- **Short Break (5 minutes):** After completing a Pomodoro session, take a short 5-minute break to relax and recharge.
+- **Long Break (15 minutes):** After completing a certain number of Pomodoro sessions, reward yourself with a longer 15-minute break.
 
-### `npm start`
+You can also customize the duration of each session using the range buttons provided.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 2. Timer
+The Timer section allows you to set a countdown timer for a specific duration, up to a maximum of 60 minutes. It can be useful for setting reminders or timing activities that require a specific timeframe.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 3. Stopwatch
+The Stopwatch section lets you track the elapsed time for any activity. You can start, stop, and reset the stopwatch as needed.
 
-### `npm test`
+## Highlights of this Project
+- **React Router:** The app utilizes React Router for single-page navigation, allowing smooth transitions between different sections.
+- **Circular Progress Bar:** The timer section incorporates a visually appealing circular progress bar to provide a visual representation of the time remaining.
+- **useState and useEffect Hooks:** These hooks are extensively used to manage the state of the app and handle side effects such as updating the timer and triggering actions at specific intervals.
+- **setInterval and clearInterval:** These functions are utilized to create timers and stop them when necessary, ensuring accurate time tracking.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Feel free to explore and make use of this Time Management Web App to enhance your productivity and effectively manage your time!
 
-### `npm run build`
+## How to Use
+1. Clone this repository to your local machine.
+2. Install the necessary dependencies using `npm install`.
+3. Start the app using `npm start`.
+4. Access the app through your web browser at `http://localhost:3000`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Credits
+This Time Management Web App was developed by [Saswata Maitra].
