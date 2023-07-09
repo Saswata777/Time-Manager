@@ -1,0 +1,44 @@
+.stopWatchBG{
+    position: relative;
+    width: 100vw;
+    height: 96vh;
+    background-color: #22577a;
+    color: white;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.stopWatch_container{
+    position: relative;
+    
+    width: 40%;
+    height: 90%;
+    background-color: rgba(255, 255, 255, 0.317);
+    border-radius: 20px;
+}
+
+img{
+    position: relative;
+    top: 5%;
+    left: 18%;
+    width: 400px;
+    height: 400px;
+
+}
+
+.sratPauseResets{
+    position: relative;
+    top: -4%;
+    display: flex;
+    font-size: 4rem;
+    justify-content: center;
+}
+
+.stopWatchTimigDisplay{
+    position: relative;
+    top: -33%;
+    left: 37%;
+    font-size: 3rem;
+}
